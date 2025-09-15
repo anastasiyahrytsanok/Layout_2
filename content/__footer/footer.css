@@ -1,6 +1,7 @@
 .footer {
   height: var(--footer-h);
-  padding: 4px 34px 40px;
+  padding: 0px 34px 40px;
+  margin-top: -46px;
 }
 
 .settings {

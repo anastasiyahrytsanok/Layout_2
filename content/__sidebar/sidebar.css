@@ -2,20 +2,20 @@
   min-width: calc(var(--sidebar-w) - 10px);
   height: 100%;
   background-color: var(--color-background-default);
-  padding-top: 27px;
+  padding-top: 23px;
 }
 
 .sidebar__nav {
-  margin-bottom: 60px;
+  margin-bottom: 56px;
 }
 
 .sidebar__section--top {
-  margin-bottom: 60px;
+  margin-bottom: 59px;
 }
 
 .sidebar__item {
   height: 20px;
-  margin-bottom: 28px;
+  margin-bottom: 29px;
 }
 
 .sidebar__link {
@@ -82,7 +82,7 @@
 .sidebar__title {
   font-size: 18px;
   font-weight: 700;
-  line-height: 23px;
+  line-height: 26px;
   color: var(--color-text-dark);
   margin-bottom: 30px;
 }
