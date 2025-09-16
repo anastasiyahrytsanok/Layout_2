@@ -4,11 +4,11 @@
   width: 100%;
   gap: 60px;
   min-width: 0;
-  padding-left: 2px;
+  padding-left: 1px;
 }
 
 .channel-header {
-  padding-right: 58px;
+  padding-right: 70px;
 }
 
 .channel-header__cover {
@@ -153,13 +153,15 @@
   font-weight: 600;
   line-height: 33px;
   color: var(--color-text-dark);
+  margin-left: 6px;
+  margin-top: 1px;
 }
 
 .controls {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  margin-right: 140px;
+  margin-right: 150px;
   align-self: flex-end;
 }
 
@@ -251,10 +253,10 @@
   line-height: 22px;
   margin-top: 10px;
   flex: 1 1 auto;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
-.video-card__description--first-part {
+.video-card__description--first-part--main {
   word-break: normal;
   min-width: 0;
   color: var(--color-text-dark);
@@ -374,7 +376,7 @@
     flex-direction: column;
   }
 
-  .video-card__description--first-part {
+  .video-card__description--first-part--main {
     display: none;
   }
 
@@ -439,6 +441,7 @@
     width: 100%;
     height: auto;
     aspect-ratio: 6 / 3;
+    min-height: 150px;
   }
 
   .video-preview--large {
@@ -490,6 +493,7 @@
 
   .videosection__videos {
     padding: 0 16px;
+    gap: 28px;
   }
 
   .channel-header__action--subscribe {
@@ -552,9 +556,5 @@
 
   .channel-header__subcount {
     margin-top: 3px;
-  }
-
-  .videosection__videos {
-    gap: 36px;
   }
 }

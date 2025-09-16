@@ -157,6 +157,10 @@
     margin-bottom: 0;
   }
 
+  .sidebar__item--trending {
+    margin-left: 14px;
+  }
+
   .sidebar__link {
     flex-direction: column;
     gap: 5px;
